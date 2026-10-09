@@ -3,7 +3,7 @@ import { createHash, timingSafeEqual } from "node:crypto";
 
 export const config = { path: "/api/*" };
 
-const VOTE_MS = 20000;      // length of a vote
+const VOTE_MS = 10000;      // length of a vote
 const ACCEPT_MS = 1000;     // late votes still accepted (network delay)
 const CLOSE_MS = 1500;      // votes are counted this long after the clock ends
 const PER = 16;             // images per bracket
