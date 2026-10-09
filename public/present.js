@@ -1,7 +1,7 @@
 (function(){
 const ROUND={1:'Round 1',2:'Round 2',3:'Round 3',4:'Semi Final',5:'Final'};
 const BR={cat:'Cats',dog:'Dogs',final:'Cats vs Dogs'};
-const VOTE_MS=20000, CLOSE_MS=1500, PER=16;
+const VOTE_MS=10000, CLOSE_MS=1500, PER=16;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
